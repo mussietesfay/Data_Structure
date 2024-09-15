@@ -14,7 +14,7 @@ class minHeap{
     return Math.floor((index - 1)/2);
    }
    #swap(index1 , index2){
-    [this.#heap[index1] , this.#heap[index2]]=[this.#heap[index2] , [this.#heap[index1]]];
+    [this.#heap[index1] , this.#heap[index2]]=[this.#heap[index2] , this.#heap[index1]];
    }
    peak(){
     return this.#heap[0];
@@ -73,6 +73,10 @@ min.getHeap();
 min.insert(800);
 console.log(min.getHeap())
 min.insert(4)
+console.log(min.getHeap())
+min.remove();
+console.log(min.getHeap())
+min.remove();
 console.log(min.getHeap())
 min.remove();
 console.log(min.getHeap())
