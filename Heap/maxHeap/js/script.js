@@ -65,20 +65,4 @@ class maxHeap{
    }
     }
 }
-let Max = new maxHeap();
-Max.insert(1);
-Max.insert(70);
-Max.insert(344);
-Max.insert(24);
-Max.insert(100);
-console.log(Max.getHeap());
-Max.remove();
-console.log(Max.getHeap());
-Max.remove();
-console.log(Max.getHeap());
-Max.remove();
-console.log(Max.getHeap());
-Max.remove();
-console.log(Max.getHeap());
-Max.insert(10);
-console.log(Max.getHeap());
+export default maxHeap;
